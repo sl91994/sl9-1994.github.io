@@ -37,6 +37,11 @@ order: 4
   - **Stored-XSS:** `3`
   - **Arbitrary-file-write:** `2`
 
+- **Contributing to OSS**
+  - **libjxl/jxl-rs:**
+  - **zip-rs/zip2:**
+  - **thewawar/simple-http-server**
+
 ## _Favorite pieces_
 
 | ゲーム         | アニメ           | 曲 / アーティスト | その他       |
