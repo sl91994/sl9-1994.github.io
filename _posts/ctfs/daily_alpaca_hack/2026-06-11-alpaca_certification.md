@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「Alpaca Certification」Easy Writeup
 description: SSL証明書のCustom OIDに対するハードコードされたFlag
 date: 2026-06-12 07:23:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, web, vuln/hardcoded_credentials]
+tags: [alpacahack, web, hardcoded_credentials]
 ---
 
 # 20260611-daily_alpaca-web-easy-alpaca_certification

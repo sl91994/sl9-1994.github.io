@@ -38,6 +38,33 @@ $ bundle exec jekyll clean
 $ bundle exec jekyll s
 ```
 
+## カテゴリとタグの運用ルール
+
+### categories (1記事につき1つ．サブカテゴリは CyberSecurity のみ)
+
+| categories | 内容 |
+| --- | --- |
+| `[CyberSecurity, CTF]` | CTF の Writeup |
+| `[CyberSecurity, Bughunt]` | 脆弱性報告 (GHSA 等) |
+| `[CyberSecurity, MalwareAnalysis]` | マルウェア解析 |
+| `[Development]` | 自作プロダクトの紹介 (projects タブに表示される) |
+| `[MinecraftModding]` | MOD 開発の手順・Tips |
+| `[Environment]` | 環境構築・ツールの設定・トラブル対処 |
+| `[Learning]` | 学習記録・入門・資格 |
+
+### tags (小文字の snake_case．1記事につき 1〜4 個)
+
+- **CTF**: `出題元` + `ジャンル` + (任意で) `脆弱性の種類`
+  - 出題元: `alpacahack`, `hackthebox`, `picoctf`, `overthewire`, `cryptohack`, `pwnable_kr`, `vulnhub`
+  - ジャンル: `web`, `pwn`, `rev`, `crypto`, `misc`, `forensics`, `osint`, `boot2root` (マシン攻略)
+- **Bughunt**: `言語` + `ghsa` + `脆弱性の種類`
+- **脆弱性の種類** (CTF・Bughunt 共通): `xss`, `path_traversal`, `sql_injection`, `use_after_free`, `buffer_overflow`, `rsa`, `hardcoded_credentials`, `dos`
+- **その他**: 言語・OS・ツール名 (`rust`, `java`, `linux`, `wsl`, `docker`, `neoforge` 等)
+  - バージョン番号はタグに含めない (`neoforge_26.1.2` ではなく `neoforge`)
+  - 自作プロダクトの種類は `cli` / `web_app` (`web` は CTF のジャンル用)
+
+新しいタグを作る前に，既存のタグで表せないかを確認する．
+
 ## Contributing
 
 This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.

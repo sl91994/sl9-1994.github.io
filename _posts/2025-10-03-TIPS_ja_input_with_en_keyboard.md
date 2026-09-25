@@ -2,8 +2,8 @@
 title: 英語配列でIME日本語入力を動作させる
 description: Windows11 で日本語配列キーボードを英語配列 (101/102キー) として使い，Ctrl+Space で Microsoft IME の日本語入力を切り替える設定方法
 date: 2025-10-03 12:00:00 +0900
-categories: [Infrastructure & OS]
-tags: [windows_11]
+categories: [Environment]
+tags: [windows]
 ---
 
 

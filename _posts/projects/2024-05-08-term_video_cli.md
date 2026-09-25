@@ -4,7 +4,7 @@ description: Asciiアニメーション ターミナル描画ツール
 date: 2024-05-08 12:00:00 +0900
 last_modified_at: 2026-08-07 22:06:00 +0900
 categories: [Development]
-tags: [rust, ffmpeg, cli]
+tags: [rust, cli]
 image:
   path: /assets/img/project_icon/term_video_cli_icon.png
   alt: term_video_cli_icon

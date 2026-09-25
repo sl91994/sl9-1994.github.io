@@ -3,7 +3,7 @@ title: OverTheWire 「Leviathan | Level 4 -> 7」Writeup
 description: OverTheWire Leviathan Level 4〜7 のwriteup．2進数出力のASCII変換，シンボリックリンクによるパスワードファイルの読み出し，Ghidra でのデコンパイルによる比較値の特定
 date: 2026-05-16 17:13:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [over_the_wire, linux, rev]
+tags: [overthewire, rev]
 ---
 
 ## Level 4 -> 5

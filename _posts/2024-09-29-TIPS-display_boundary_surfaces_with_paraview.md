@@ -2,7 +2,7 @@
 title: ParaView5.10.1でのフィールドの境界面の表示
 description: ParaView 5.10.1 で Slice と Contour フィルタを使い，OpenFOAMの計算結果から alpha.water などのフィールドの境界面 (等値面) を表示する方法
 date: 2024-09-29 12:00:00 +0900
-categories: []
+categories: [Environment]
 tags: [openfoam]
 ---
 

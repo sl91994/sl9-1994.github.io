@@ -3,7 +3,7 @@ title: VScodeを用いたMinecraft Forge開発環境構築
 description: VSCode で Minecraft Forge 1.21.4 のMOD開発環境を構築する手順．Extension Pack for Java，Eclipse Temurin JDK21，Forge MDK，Parchment マッピングの導入まで
 date: 2025-08-22 12:00:00 +0900
 categories: [MinecraftModding]
-tags: [forge_1.21.4]
+tags: [forge, java, vscode]
 ---
 
 # Forge Mod 開発環境の構築

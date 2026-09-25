@@ -3,7 +3,7 @@ title: NeoForgeでパーティクルの描画範囲を拡張
 description: NeoForge の MOD 開発で，sendParticles の overrideLimiter と alwaysShow を使ってパーティクルの描画距離の制限を外し，遠くまで表示する方法
 date: 2025-08-30 12:00:00 +0900
 categories: [MinecraftModding]
-tags: [neoforge_1.21.4]
+tags: [neoforge, java]
 ---
 
 ### パーティクルの描画可能範囲を拡張する

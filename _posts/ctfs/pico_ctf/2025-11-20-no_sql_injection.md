@@ -3,7 +3,7 @@ title: Pico CTF 2024「No SQL Injection」Medium Writeup
 description: picoCTF 2024「No SQL Injection」のwriteup．Express + MongoDB のログイン処理で，JSONとしてパースされるパスワードに $ne 演算子を渡して認証をバイパスする
 date: 2025-11-20 12:00:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [web, pico_ctf]
+tags: [picoctf, web]
 ---
 
 - Challenge: No Sql Injection

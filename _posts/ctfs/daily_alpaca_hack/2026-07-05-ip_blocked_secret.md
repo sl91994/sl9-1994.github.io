@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「IP Blocked Secret」Hard Writeup
 description: SQL Injection
 date: 2026-07-06 14:21:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, web, vuln/sql_injection]
+tags: [alpacahack, web, sql_injection]
 ---
 
 # 20260705-daily_alpaca-web-hard-ip_blocked_secret

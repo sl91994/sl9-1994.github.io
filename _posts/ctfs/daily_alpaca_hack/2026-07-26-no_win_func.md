@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「no win func」Hard Writeup
 description: printf のアドレスリークと Stack BOF を用いた Ret2Libc 攻撃を利用してシェルを奪取する問題
 date: 2026-07-26 21:16:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, pwn]
+tags: [alpacahack, pwn, buffer_overflow]
 math: true
 ---
 

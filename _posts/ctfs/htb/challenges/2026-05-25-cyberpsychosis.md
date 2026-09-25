@@ -3,7 +3,7 @@ title: HTB「Cyberpsychosis」Easy Writeup
 description: RootKitの解除
 date: 2026-05-25 13:05:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [rev, hack_the_box, rootkit]
+tags: [hackthebox, rev]
 ---
 
 # 20260524-htb-chall-rev-easy-Cyberpsychosis

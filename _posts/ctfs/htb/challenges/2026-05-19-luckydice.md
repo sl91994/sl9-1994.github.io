@@ -3,7 +3,7 @@ title: HTB「LuckyDice」Easy Writeup
 description: サイコロの目の総和が，最も大きいプレイヤーを選ぶ．
 date: 2026-05-19 22:00:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [misc, hack_the_box, pwntools]
+tags: [hackthebox, misc]
 ---
 
 # 20260517-htb-chall-misc-easy-LuckyDice

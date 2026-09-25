@@ -3,7 +3,7 @@ title: ホストブラウザの通信を，WSL2上のNixOSで動作するBurpsui
 description: WSL2 上の NixOS で動かす Burp Suite で Windows ホストのブラウザ通信をインターセプトする方法．全インターフェースでの待ち受け，CA証明書の導入，ミラーモードネットワークの設定
 date: 2026-04-29 20:25:00 +0900
 categories: [Environment]
-tags: [wsl, burpsuite]
+tags: [burpsuite, nixos, wsl]
 ---
 
 WSL2上のNixOSで，名前付きdevshell内で使用しているburpsuiteでホストブラウザの通信をインターセプトする方法

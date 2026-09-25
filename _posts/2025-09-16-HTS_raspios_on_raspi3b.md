@@ -2,8 +2,8 @@
 title: RaspberryPI3 modelBにRaspberryOSを導入
 description: Raspberry Pi Imager で Raspberry Pi 3 Model B に Raspberry Pi OS を書き込み，Wi-Fiと公開鍵認証のSSHを初期設定してヘッドレスで接続する手順
 date: 2025-09-16 12:00:00 +0900
-categories: [Infrastructure & OS]
-tags: [raspberry_pi]
+categories: [Environment]
+tags: [linux, raspberry_pi]
 ---
 
 ## OS のインストール

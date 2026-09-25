@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「chmod-swapper」Medium Writeup
 description: 任意ファイルに対する権限スワップ
 date: 2026-06-11 10:13:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, misc, vuln/arbitrary_file_permission_modification]
+tags: [alpacahack, misc]
 ---
 
 # 20260610-daily_alpaca-misc-medium-chmod_swapper

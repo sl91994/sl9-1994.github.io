@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「Hello Programmer!」Medium Writeup
 description: Reflected_XSS, CSP
 date: 2026-05-28 08:17:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, web, vuln/xss]
+tags: [alpacahack, web, xss]
 ---
 
 # 20260527-daily-web-medium-Hello_Programmer

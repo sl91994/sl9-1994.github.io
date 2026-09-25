@@ -3,7 +3,7 @@ title: 「Quiz Event App」
 description: ローカルイベント特化 リアルタイム制御クイズアプリ
 date: 2024-08-19 12:00:00 +0900
 categories: [Development]
-tags: [rust, actix, typescript, web_app]
+tags: [rust, typescript, web_app]
 image:
   path: /assets/img/project_placeholder_ai.png
   alt: project_placeholder

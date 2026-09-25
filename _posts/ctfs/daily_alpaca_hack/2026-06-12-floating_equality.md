@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「Floating Equality」Medium Writeup
 description: 2種類のIEEE754 浮動小数点数計算での桁丸め誤差
 date: 2026-06-13 10:30:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, misc, vuln/floating_point]
+tags: [alpacahack, misc]
 ---
 
 # 20260612-htb-chall-misc-madium-floating_equality

@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「login-bonus-3」Hard Writeup
 description: Stack-based Use-After-Free
 date: 2026-06-01 20:35:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, pwn, vuln/stack_based_use_after_free, linux]
+tags: [alpacahack, pwn, use_after_free]
 ---
 
 # 20260531-daily_alpaca-pwn-hard-login_bonus_3

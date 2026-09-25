@@ -3,7 +3,7 @@ title: VScodeを用いたMinecraft v26.1.2 NeoForge 開発環境構築
 date: 2026-08-18 13:15:00 +0900
 description: Minecraft v26.1.2 NeoForge
 categories: [MinecraftModding]
-tags: [neoforge_26.1.2]
+tags: [neoforge, java, vscode]
 ---
 
 # ENV-neoforge_mdk_and_java25_with_vscode

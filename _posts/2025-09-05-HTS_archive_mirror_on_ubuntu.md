@@ -2,8 +2,8 @@
 title: WSL2 ubuntu 24.04のアーカイブミラーサーバーを変更
 description: WSL2 の Ubuntu 24.04 で apt が公式サーバーに接続できなくなったときに，ubuntu.sources を書き換えて国内ミラーサーバーへ変更する方法
 date: 2025-09-05 12:00:00 +0900
-categories: [Infrastructure & OS]
-tags: []
+categories: [Environment]
+tags: [linux, wsl]
 ---
 
 ## 変更理由

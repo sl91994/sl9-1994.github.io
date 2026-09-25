@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「func-array」Easy Writeup
 description: Out-of-Bounds Read
 date: 2026-05-26 17:33:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, linux, pwn]
+tags: [alpacahack, pwn]
 ---
 
 # 20260525-daily_alpaca-pwn-func_array

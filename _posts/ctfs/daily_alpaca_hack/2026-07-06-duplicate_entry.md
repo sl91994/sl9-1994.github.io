@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「duplicate entry」easy Writeup
 description: 重複したエントリが存在する場合のZIPの挙動
 date: 2026-07-07 06:35:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, misc]
+tags: [alpacahack, misc]
 ---
 
 # 20260706-daily_alpaca-misc-easy-duplicate_entry

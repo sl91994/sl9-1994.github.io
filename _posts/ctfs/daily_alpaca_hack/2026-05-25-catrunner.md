@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「Catrunner」Easy Writeup
 description: Pythonの仕様を利用したPath Traversal
 date: 2026-05-25 20:03:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, linux, misc, vuln/path_traversal]
+tags: [alpacahack, misc, path_traversal]
 ---
 
 # 20260525-daily_alpaca-misc-Catrunner

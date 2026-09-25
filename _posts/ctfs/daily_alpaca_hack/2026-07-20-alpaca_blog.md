@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「Alpaca Blog」Easy Writeup
 description: 検索処理のオラクルを利用したフラグ文字列の総当たり
 date: 2026-07-21 22:28:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, web]
+tags: [alpacahack, web]
 ---
 
 # 20260720-daily_alpaca-web-easy-alpaca_blog

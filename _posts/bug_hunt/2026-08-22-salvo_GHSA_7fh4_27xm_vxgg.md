@@ -3,7 +3,7 @@ title: Stored XSS via image/svg+xml served inline by StaticDir / NamedFile (GHSA
 description: Rust製Webフレームワーク Salvo の StaticDir / NamedFile が SVG を Content-Disposition inline で配信するため，アップロードされたSVGで任意のJavaScriptが実行される保存型XSS (0.96.0で修正)
 date: 2026-09-03 14:28:00 +0900
 categories: [CyberSecurity, Bughunt]
-tags: [rust, ghsa, salvo]
+tags: [rust, ghsa, xss]
 ---
 
 > 2026/08/21: この脆弱性は [f81876e](https://github.com/salvo-rs/salvo/commit/f81876e40d88d44f338973b3308630d41afb81e6) コミットで修正されました．  

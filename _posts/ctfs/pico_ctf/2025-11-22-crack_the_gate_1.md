@@ -3,7 +3,7 @@ title: picoMini by CMU-Africa「Crack the Gate」Medium Writeup
 description: picoMini「Crack the Gate 1」のwriteup．HTMLコメントを ROT13 で復号して開発用ヘッダー X-Dev-Access を見つけ，Burp Suite で付与してログインをバイパスする
 date: 2025-11-22 12:00:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [web, pico_ctf]
+tags: [picoctf, web]
 ---
 
 - Challenge: Crack the Gate 1

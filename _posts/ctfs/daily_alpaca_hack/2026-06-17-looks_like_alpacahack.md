@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「Looks like Alpacahack」Medium Writeup
 description: 攻撃者が用意したページ経由でFLAGを漏洩させられるフィッシング問題
 date: 2026-06-18 9:40:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, web, vuln/phishing]
+tags: [alpacahack, web]
 ---
 
 # 20260617-daily_alpaca-web-medium-looks_like_alpacahack

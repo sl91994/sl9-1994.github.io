@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「Password, Please」Easy Writeup
 description: bashの構文ミスによってワイルドカードが受け入れられる事を利用するMisc問題
 date: 2026-08-03 00:05:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, misc]
+tags: [alpacahack, misc]
 math: true
 ---
 

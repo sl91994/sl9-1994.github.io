@@ -3,7 +3,7 @@ title: HTB「CubeMadness1」VeryEasy Writeup
 description: Il2Cppビルド形式でコンパイルされたunityゲームのPwn
 date: 2026-05-17 16:18:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [rev, hack_the_box, windows, game_pwn]
+tags: [hackthebox, rev]
 ---
 
 # 20260517-htb-chall-gamepwn-veryeasy-CubeMadness1

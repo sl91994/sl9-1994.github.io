@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「Unrevealed TXT」Easy Writeup
 description: 権威DNSサーバのゾーン転送設定を利用して，ホスト名が不明なTXTレコードを読み取るMisc問題
 date: 2026-08-01 15:11:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, misc]
+tags: [alpacahack, misc]
 ---
 
 # 20260427-daily_alpaca-misc-easy-unrevealed_txt

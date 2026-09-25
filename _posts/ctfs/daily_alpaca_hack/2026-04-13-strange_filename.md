@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「strange filename」Easy Writeup
 description: ファイル名がハイフンのみの特殊なファイルの表示
 date: 2026-07-05 22:21:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, misc]
+tags: [alpacahack, misc]
 ---
 
 # 20260413-daily_alpaca-misc-easy-strange_filename

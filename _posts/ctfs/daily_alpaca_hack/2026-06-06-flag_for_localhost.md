@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「Flag for localhost」Easy Writeup
 description: リバースプロキシとサーバフレームワークの設定ミスによるIP認証バイパス
 date: 2026-06-07 09:42:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, web, vuln/web/ip_address_spoofing, vuln/web/http_header_injecton]
+tags: [alpacahack, web]
 ---
 
 # 20260606-daily_alpaca-web-easy-Flag_for_localhost

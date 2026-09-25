@@ -3,7 +3,7 @@ title: 「Recipe Submission App」
 description: 料理レシピ投稿アプリケーション
 date: 2023-04-23 12:00:00 +0900
 categories: [Development]
-tags: [js, firebase, react]
+tags: [javascript, react, web_app]
 image:
   path: /assets/img/project_placeholder_ai.png
   alt: project_placeholder

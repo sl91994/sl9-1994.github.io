@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「Cache Me If You Can」Easy Writeup
 description: リバースプロキシ キャッシュ機構バイパス
 date: 2026-06-03 12:37:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, web, vuln/web_cache_bypass, linux]
+tags: [alpacahack, web]
 ---
 
 # 20260602-daily-web-easy-Cache_Me_If_You_Can

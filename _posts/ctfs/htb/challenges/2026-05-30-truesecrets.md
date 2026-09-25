@@ -3,7 +3,7 @@ title: HTB「TrueSecrets」Easy Writeup
 description: メモリダンプファイルからの，C2サーバのソースコード特定と暗号化解除
 date: 2026-05-30 22:30:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [forensics, hack_the_box, volatility]
+tags: [hackthebox, forensics]
 ---
 
 # 20260530-htb-chall-forensics-easy-TrueSecrets

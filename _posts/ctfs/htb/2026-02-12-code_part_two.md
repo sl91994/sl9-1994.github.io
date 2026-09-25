@@ -3,7 +3,7 @@ title: HTB「Code Part Two」Easy Writeup
 description: Easy, Linux, Web
 date: 2026-02-12 12:00:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [web, hack_the_box]
+tags: [hackthebox, boot2root]
 image:
   path: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/ea23d7bc12459ef0c3db19067f02352a.png
   alt: logo

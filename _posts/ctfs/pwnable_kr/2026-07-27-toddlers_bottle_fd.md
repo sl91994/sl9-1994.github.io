@@ -3,7 +3,7 @@ title: Pwnable.kr 「fd (Toddler's Bottle)」Writeup
 description: file descriptor の理解を試すpwn問題
 date: 2026-07-27 22:34:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [pwnable_kr, toddlers_bottle, pwn]
+tags: [pwnable_kr, pwn]
 ---
 
 # 20260727-pwnable_kr-toddlers_bottle-fd

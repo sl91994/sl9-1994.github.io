@@ -4,7 +4,7 @@ description: 被災体験アーカイブス
 date: 2026-08-08 21:56:00 +0900
 last_modified_at: 2026-08-17 17:33:00 +0900
 categories: [Development]
-tags: [typescript, web, supabase, react]
+tags: [typescript, react, web_app]
 image:
   path: /assets/img/project_icon/our_stories_for_tomorrow_ogp.png
   alt: our_stories_for_tomorrow_icon

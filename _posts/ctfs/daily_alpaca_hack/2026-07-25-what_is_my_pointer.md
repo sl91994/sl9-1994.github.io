@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「what-is-my-pointer」Hard Writeup
 description: ヒープ領域のUAFを利用してベースアドレスを求め，flagアドレスの値の任意読み出しを行うPwn問題
 date: 2026-07-26 00:10:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, pwn]
+tags: [alpacahack, pwn, use_after_free]
 math: true
 ---
 

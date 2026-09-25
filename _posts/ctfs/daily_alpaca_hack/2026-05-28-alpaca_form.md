@@ -3,7 +3,7 @@ title: Daily-AlpacaHack 「Alpaca Form」Medium Writeup
 description: .Netプログラムの逆解析とRVA埋め込み
 date: 2026-05-29 06:15:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [daily_alpaca_hack, rev, vuln/hardcoded_credentials, windows, dotnet]
+tags: [alpacahack, rev, dotnet, hardcoded_credentials]
 ---
 
 # 20260528-daily_alpaca-rev-medium-Alpaca_Form

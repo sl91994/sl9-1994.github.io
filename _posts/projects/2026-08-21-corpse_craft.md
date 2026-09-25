@@ -3,8 +3,8 @@ title: (開発中)「コープスクラフト | Minecraft 自作MOD」
 description: ホラーアドベンチャー「コープスパーティー」シリーズをテーマにした非公式Minecraft MOD「Corpse Craft」の紹介．NeoForge 26.1.2 対応で開発中
 date: 2026-08-21 3:56:00 +0900
 last_modified_at: 2026-08-21 3:33:00 +0900
-categories: [Development, MinecraftModding]
-tags: [neoforge_26.1.2, corpse_craft_mod]
+categories: [Development]
+tags: [neoforge, java]
 image:
   path: /assets/img/project_placeholder_ai.png
   alt: project_placeholder

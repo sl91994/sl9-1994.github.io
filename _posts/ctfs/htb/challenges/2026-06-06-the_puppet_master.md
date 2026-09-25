@@ -3,7 +3,7 @@ title: HTB 「The Puppet Master」VeryEasy Writeup
 description: osint入門問題
 date: 2026-06-06 22:02:00 +0900
 categories: [CyberSecurity, CTF]
-tags: [hack_the_box, osint]
+tags: [hackthebox, osint]
 math: true
 ---
 
