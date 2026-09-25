@@ -1,5 +1,5 @@
 ---
-title: Daily-AlpacaHack 「func-array」Easy
+title: Daily-AlpacaHack 「func-array」Easy Writeup
 description: Out-of-Bounds Read
 date: 2026-05-26 17:33:00 +0900
 categories: [CyberSecurity, CTF]

@@ -1,5 +1,5 @@
 ---
-title: Daily-AlpacaHack 「Slipboard」Hard
+title: Daily-AlpacaHack 「Slipboard」Hard Writeup
 description: コーディングミスと反射型XSS
 date: 2026-05-31 07:45:00 +0900
 categories: [CyberSecurity, CTF]

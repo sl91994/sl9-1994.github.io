@@ -1,5 +1,5 @@
 ---
-title: Daily-AlpacaHack 「login-bonus-3」Hard
+title: Daily-AlpacaHack 「login-bonus-3」Hard Writeup
 description: Stack-based Use-After-Free
 date: 2026-06-01 20:35:00 +0900
 categories: [CyberSecurity, CTF]

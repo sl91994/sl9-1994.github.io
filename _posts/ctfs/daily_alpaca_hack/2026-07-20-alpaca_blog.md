@@ -1,5 +1,5 @@
 ---
-title: Daily-AlpacaHack 「Alpaca Blog」Easy
+title: Daily-AlpacaHack 「Alpaca Blog」Easy Writeup
 description: 検索処理のオラクルを利用したフラグ文字列の総当たり
 date: 2026-07-21 22:28:00 +0900
 categories: [CyberSecurity, CTF]

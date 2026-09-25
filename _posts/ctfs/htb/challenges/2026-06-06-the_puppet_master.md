@@ -1,5 +1,5 @@
 ---
-title: HTB 「The Puppet Master」VeryEasy
+title: HTB 「The Puppet Master」VeryEasy Writeup
 description: osint入門問題
 date: 2026-06-06 22:02:00 +0900
 categories: [CyberSecurity, CTF]

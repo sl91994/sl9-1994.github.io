@@ -1,5 +1,5 @@
 ---
-title: Daily-AlpacaHack 「Cache Me If You Can」Easy
+title: Daily-AlpacaHack 「Cache Me If You Can」Easy Writeup
 description: リバースプロキシ キャッシュ機構バイパス
 date: 2026-06-03 12:37:00 +0900
 categories: [CyberSecurity, CTF]

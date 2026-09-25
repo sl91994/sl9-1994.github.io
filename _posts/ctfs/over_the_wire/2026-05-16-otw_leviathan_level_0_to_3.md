@@ -1,5 +1,5 @@
 ---
-title: OverTheWire 「Leviathan | Level 0 -> 3」
+title: OverTheWire 「Leviathan | Level 0 -> 3」Writeup
 description: OverTheWire Leviathan Level 0〜3 のwriteup．strings と ltrace でのパスワード比較の解析，Ghidra によるデコンパイル，SUIDバイナリの OS コマンドインジェクションを利用
 date: 2026-05-16 15:45:00 +0900
 categories: [CyberSecurity, CTF]
