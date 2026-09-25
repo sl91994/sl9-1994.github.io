@@ -1,5 +1,6 @@
 ---
-title: ENV:🧱 Zola SSGのGithub Pagesデプロイ方法
+title: Zola SSGのGithub Pagesデプロイ方法
+description: 静的サイトジェネレーター Zola で作ったサイトを GitHub Actions で GitHub Pages にデプロイし，カスタムドメインとHTTPSを設定する方法
 date: 2025-09-28 12:00:00 +0900
 categories: [Infrastructure & OS]
 tags: [deploy]

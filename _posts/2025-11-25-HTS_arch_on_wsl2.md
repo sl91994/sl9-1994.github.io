@@ -1,5 +1,6 @@
 ---
-title: ENV:🧱 Arch LinuxのWSL2内環境構築 
+title: Arch LinuxのWSL2内環境構築 
+description: WSL2 に公式の Arch Linux をインストールし，pacman の更新，ユーザー作成，sudo 設定など開発用の初期環境を構築する手順
 date: 2025-11-25 12:00:00 +0900
 categories: [Infrastructure & OS]
 tags: [arch, wsl]

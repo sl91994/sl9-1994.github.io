@@ -1,5 +1,6 @@
 ---
-title: ENV:🧱 ホストブラウザの通信を，WSL2上のNixOSで動作するBurpsuiteでインターセプトする方法
+title: ホストブラウザの通信を，WSL2上のNixOSで動作するBurpsuiteでインターセプトする方法
+description: WSL2 上の NixOS で動かす Burp Suite で Windows ホストのブラウザ通信をインターセプトする方法．全インターフェースでの待ち受け，CA証明書の導入，ミラーモードネットワークの設定
 date: 2026-04-29 20:25:00 +0900
 categories: [Environment]
 tags: [wsl, burpsuite]

@@ -1,5 +1,5 @@
 ---
-title: FEAT:✨ 「Recipe Submission App」
+title: 「Recipe Submission App」
 description: 料理レシピ投稿アプリケーション
 date: 2023-04-23 12:00:00 +0900
 categories: [Development]

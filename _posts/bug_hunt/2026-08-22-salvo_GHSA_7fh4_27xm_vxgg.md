@@ -1,5 +1,6 @@
 ---
-title: BUGHUNT:🔍 Stored XSS via image/svg+xml served inline by StaticDir / NamedFile (GHSA-7fh4-27xm-vxgg)
+title: Stored XSS via image/svg+xml served inline by StaticDir / NamedFile (GHSA-7fh4-27xm-vxgg)
+description: Rust製Webフレームワーク Salvo の StaticDir / NamedFile が SVG を Content-Disposition inline で配信するため，アップロードされたSVGで任意のJavaScriptが実行される保存型XSS (0.96.0で修正)
 date: 2026-09-03 14:28:00 +0900
 categories: [CyberSecurity, Bughunt]
 tags: [rust, ghsa, salvo]

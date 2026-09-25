@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 Daily-AlpacaHack 「IP Blocked Secret」Hard
+title: Daily-AlpacaHack 「IP Blocked Secret」Hard
 description: SQL Injection
 date: 2026-07-06 14:21:00 +0900
 categories: [CyberSecurity, CTF]

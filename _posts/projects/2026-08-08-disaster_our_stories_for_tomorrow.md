@@ -1,5 +1,5 @@
 ---
-title: FEAT:✨ 「被災体験アーカイブス | Our Stories for Tomorrow」
+title: 「被災体験アーカイブス | Our Stories for Tomorrow」
 description: 被災体験アーカイブス
 date: 2026-08-08 21:56:00 +0900
 last_modified_at: 2026-08-17 17:33:00 +0900

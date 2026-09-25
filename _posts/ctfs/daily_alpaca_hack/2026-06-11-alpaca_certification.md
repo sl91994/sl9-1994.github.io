@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 Daily-AlpacaHack 「Alpaca Certification」Easy
+title: Daily-AlpacaHack 「Alpaca Certification」Easy
 description: SSL証明書のCustom OIDに対するハードコードされたFlag
 date: 2026-06-12 07:23:00 +0900
 categories: [CyberSecurity, CTF]

@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 Daily-AlpacaHack 「Alpaca Form」Medium
+title: Daily-AlpacaHack 「Alpaca Form」Medium
 description: .Netプログラムの逆解析とRVA埋め込み
 date: 2026-05-29 06:15:00 +0900
 categories: [CyberSecurity, CTF]

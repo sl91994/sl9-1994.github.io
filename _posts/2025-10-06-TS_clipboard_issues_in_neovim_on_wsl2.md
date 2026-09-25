@@ -1,5 +1,6 @@
 ---
-title: FIX:🚑 WSL2上のNeovimで，コピー&ペーストができない問題
+title: WSL2上のNeovimで，コピー&ペーストができない問題
+description: WSL2 上の Neovim で Windows とクリップボードを共有できない問題を，win32yank を導入して解決する方法
 date: 2025-10-06 12:00:00 +0900
 categories: [Environment]
 tags: [text_editor, wsl2]

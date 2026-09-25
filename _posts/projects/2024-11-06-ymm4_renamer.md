@@ -1,5 +1,5 @@
 ---
-title: FEAT:✨ 「Ymm4 Renamer」
+title: 「Ymm4 Renamer」
 description: ゆっくりムービーメーカー4専用 動くイラストファイル名自動変更ツール
 date: 2024-11-06 12:00:00 +0900
 categories: [Development]

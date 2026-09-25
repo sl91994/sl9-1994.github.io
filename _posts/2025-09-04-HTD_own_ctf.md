@@ -1,5 +1,6 @@
 ---
-title: ENV:🧱 EC2の無料枠を用いてCTFプラットフォームを構築
+title: EC2の無料枠を用いてCTFプラットフォームを構築
+description: AWS EC2 の無料枠 (t2.micro) と Docker で CTFd を立ち上げ，自前のCTFプラットフォームを構築する手順．セキュリティグループやSSH接続の設定，テーマ変更まで
 date: 2025-09-04 12:00:00 +0900
 categories: [Infrastructure & OS]
 tags: [deploy]

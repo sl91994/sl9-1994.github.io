@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 Daily-AlpacaHack 「Hello Programmer!」Medium
+title: Daily-AlpacaHack 「Hello Programmer!」Medium
 description: Reflected_XSS, CSP
 date: 2026-05-28 08:17:00 +0900
 categories: [CyberSecurity, CTF]

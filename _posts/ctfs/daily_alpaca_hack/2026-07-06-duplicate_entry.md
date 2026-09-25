@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 Daily-AlpacaHack 「duplicate entry」easy
+title: Daily-AlpacaHack 「duplicate entry」easy
 description: 重複したエントリが存在する場合のZIPの挙動
 date: 2026-07-07 06:35:00 +0900
 categories: [CyberSecurity, CTF]

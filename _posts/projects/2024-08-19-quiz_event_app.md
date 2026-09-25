@@ -1,5 +1,5 @@
 ---
-title: FEAT:✨ 「Quiz Event App」
+title: 「Quiz Event App」
 description: ローカルイベント特化 リアルタイム制御クイズアプリ
 date: 2024-08-19 12:00:00 +0900
 categories: [Development]

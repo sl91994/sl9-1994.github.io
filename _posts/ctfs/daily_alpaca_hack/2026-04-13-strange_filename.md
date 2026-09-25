@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 Daily-AlpacaHack 「strange filename」Easy
+title: Daily-AlpacaHack 「strange filename」Easy
 description: ファイル名がハイフンのみの特殊なファイルの表示
 date: 2026-07-05 22:21:00 +0900
 categories: [CyberSecurity, CTF]

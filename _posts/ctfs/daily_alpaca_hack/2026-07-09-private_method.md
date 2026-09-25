@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 Daily-AlpacaHack 「private method」easy
+title: Daily-AlpacaHack 「private method」easy
 description: PythonにおけるPrivateメソッドに対する名前修飾
 date: 2026-07-10 07:16:00 +0900
 categories: [CyberSecurity, CTF]

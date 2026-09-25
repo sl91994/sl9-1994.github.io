@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 Daily-AlpacaHack 「Flag is A+B」Easy
+title: Daily-AlpacaHack 「Flag is A+B」Easy
 description: 論理演算と算術演算の関係式を用いた復号
 date: 2026-07-03 20:26:00 +0900
 categories: [CyberSecurity, CTF]

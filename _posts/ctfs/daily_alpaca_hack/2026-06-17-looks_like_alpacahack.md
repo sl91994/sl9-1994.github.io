@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 Daily-AlpacaHack 「Looks like Alpacahack」Medium
+title: Daily-AlpacaHack 「Looks like Alpacahack」Medium
 description: 攻撃者が用意したページ経由でFLAGを漏洩させられるフィッシング問題
 date: 2026-06-18 9:40:00 +0900
 categories: [CyberSecurity, CTF]

@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 (B-SIDE) AlpacaHack 「Long Flag Printer 2026」Medium
+title: (B-SIDE) AlpacaHack 「Long Flag Printer 2026」Medium
 description: コンテナの設定と通信のキープ処理を利用するMisc問題
 date: 2026-08-01 22:46:00 +0900
 categories: [CyberSecurity, CTF]

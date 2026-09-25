@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 HTB「CubeMadness1」VeryEasy
+title: HTB「CubeMadness1」VeryEasy
 description: Il2Cppビルド形式でコンパイルされたunityゲームのPwn
 date: 2026-05-17 16:18:00 +0900
 categories: [CyberSecurity, CTF]

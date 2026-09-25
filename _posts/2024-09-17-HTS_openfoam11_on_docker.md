@@ -1,5 +1,6 @@
 ---
-title: ENV:📦 Dockerを使用したOpenFOAM-11導入の備忘録
+title: Dockerを使用したOpenFOAM-11導入の備忘録
+description: WSL2 (Ubuntu 24.04) と Docker Desktop で OpenFOAM-11 + ParaView 5.10 の公式イメージを導入し，X11転送でGUIを表示する手順
 date: 2024-09-17 12:00:00 +0900
 categories: [Environment]
 tags: [openfoam]

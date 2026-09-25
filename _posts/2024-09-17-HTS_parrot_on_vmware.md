@@ -1,5 +1,6 @@
 ---
-title: ENV:🧱 VMwareに対してのParrotOSの導入方法
+title: VMwareに対してのParrotOSの導入方法
+description: VMware Workstation Pro 17 に Parrot OS Security Edition をインストールする手順．ISOのハッシュ検証，VM設定，fcitx-mozcでの日本語化，キー入力遅延の対処まで
 date: 2024-09-16 12:00:00 +0900
 categories: [Infrastructure & OS]
 tags: [debian]

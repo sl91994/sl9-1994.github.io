@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 Daily-AlpacaHack 「True or False」Medium
+title: Daily-AlpacaHack 「True or False」Medium
 description: 例外処理によるオラクル実装と真偽値の算術評価を利用して，3分探索することでFlagを入手するMisc問題
 date: 2026-07-24 00:01:00 +0900
 categories: [CyberSecurity, CTF]

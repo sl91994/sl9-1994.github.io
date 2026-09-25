@@ -1,5 +1,6 @@
 ---
-title: FEAT:🚩 Mr Robot CTF
+title: Mr Robot CTF
+description: VulnHub Mr-Robot:1 のwriteup．robots.txt と辞書ファイルの探索，WordPress へのログインと PHP リバースシェル，MD5ハッシュの解析，SUID nmap による権限昇格で3つの鍵を入手
 date: 2024-03-13 12:00:00 +0900
 categories: [CyberSecurity, CTF]
 tags: [web, vulnhub]

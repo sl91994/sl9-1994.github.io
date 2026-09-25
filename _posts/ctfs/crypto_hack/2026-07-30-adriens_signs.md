@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 CryptoHack 「Adrien's Signs (Modular Arithmetic)」
+title: CryptoHack 「Adrien's Signs (Modular Arithmetic)」
 description: モジュラ演算におけるルシャンドル記号の性質を利用して，ビット化されたFlagを逆算するCrypto問題
 date: 2026-07-30 23:37:00 +0900
 categories: [CyberSecurity, CTF]

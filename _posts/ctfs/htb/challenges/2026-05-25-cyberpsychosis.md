@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 HTB「Cyberpsychosis」Easy
+title: HTB「Cyberpsychosis」Easy
 description: RootKitの解除
 date: 2026-05-25 13:05:00 +0900
 categories: [CyberSecurity, CTF]

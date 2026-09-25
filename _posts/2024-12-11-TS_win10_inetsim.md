@@ -1,5 +1,6 @@
 ---
-title: FIX:🚑 Windows10 Inetsimが正常に動作しない
+title: Windows10 Inetsimが正常に動作しない
+description: Windows10 と REMnux のマルウェア解析環境で INetSim の偽ページが表示されない問題の解決方法．原因はプロキシ設定の自動検出 (WPAD)
 date: 2025-08-19 12:00:00 +0900
 categories: [CyberSecurity, MalwareAnalysis]
 tags: [inetsim]

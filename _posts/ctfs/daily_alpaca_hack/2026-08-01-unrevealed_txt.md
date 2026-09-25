@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 Daily-AlpacaHack 「Unrevealed TXT」Easy
+title: Daily-AlpacaHack 「Unrevealed TXT」Easy
 description: 権威DNSサーバのゾーン転送設定を利用して，ホスト名が不明なTXTレコードを読み取るMisc問題
 date: 2026-08-01 15:11:00 +0900
 categories: [CyberSecurity, CTF]

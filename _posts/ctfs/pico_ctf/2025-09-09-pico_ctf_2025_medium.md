@@ -1,5 +1,6 @@
 ---
-title: FEAT:🚩 Pico CTF 2025 Medium
+title: Pico CTF 2025 Medium
+description: picoCTF 2025 の Medium 問題 Binary Instrumentation のwriteup．Windows VM 上で Frida を使って Sleep などの Windows API をフックし，フラグを取り出す
 date: 2025-09-09 12:00:00 +0900
 categories: [CyberSecurity, CTF]
 tags: [web, pico_ctf]

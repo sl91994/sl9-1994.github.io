@@ -1,5 +1,6 @@
 ---
-title: FEAT:✨ 葬送のフリーレンの杖をモデリングしてみた
+title: 葬送のフリーレンの杖をモデリングしてみた
+description: Blockbench と Shape Generator プラグインで「葬送のフリーレン」の杖をMinecraft用3Dモデルとして作成．1.21.4以降で必要になった items/ のjsonの注意点も解説
 date: 2025-08-22 12:00:00 +0900
 categories: [MinecraftModding]
 tags: [modeling]

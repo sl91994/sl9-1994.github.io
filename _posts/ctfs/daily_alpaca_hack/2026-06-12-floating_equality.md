@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 Daily-AlpacaHack 「Floating Equality」Medium
+title: Daily-AlpacaHack 「Floating Equality」Medium
 description: 2種類のIEEE754 浮動小数点数計算での桁丸め誤差
 date: 2026-06-13 10:30:00 +0900
 categories: [CyberSecurity, CTF]

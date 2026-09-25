@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 Pwnable.kr 「fd (Toddler's Bottle)」
+title: Pwnable.kr 「fd (Toddler's Bottle)」
 description: file descriptor の理解を試すpwn問題
 date: 2026-07-27 22:34:00 +0900
 categories: [CyberSecurity, CTF]

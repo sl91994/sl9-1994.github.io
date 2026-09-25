@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 HTB「LuckyDice」Easy
+title: HTB「LuckyDice」Easy
 description: サイコロの目の総和が，最も大きいプレイヤーを選ぶ．
 date: 2026-05-19 22:00:00 +0900
 categories: [CyberSecurity, CTF]

@@ -1,5 +1,6 @@
 ---
-title: STUDY:🔍 VScode for Edcationを体験！
+title: VScode for Edcationを体験！
+description: Microsoftが提供する無料のオンラインCS学習プラットフォーム Visual Studio Code for Education の特徴と，Python入門講座を実際に体験した感想
 date: 2024-06-02 12:00:00 +0900
 categories: [Learning]
 tags: []

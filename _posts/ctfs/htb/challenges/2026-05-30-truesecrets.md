@@ -1,5 +1,5 @@
 ---
-title: FEAT:🚩 HTB「TrueSecrets」Easy
+title: HTB「TrueSecrets」Easy
 description: メモリダンプファイルからの，C2サーバのソースコード特定と暗号化解除
 date: 2026-05-30 22:30:00 +0900
 categories: [CyberSecurity, CTF]
