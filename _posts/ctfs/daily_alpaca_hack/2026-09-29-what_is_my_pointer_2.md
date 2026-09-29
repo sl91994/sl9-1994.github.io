@@ -1,7 +1,7 @@
 ---
 title: Daily-AlpacaHack 「what is my pointer 2」Hard Writeup
 description: printf() のアドレスリークによるlibc baseの算出，任意アドレス読み込みを利用したenvironグローバル変数のアクセス
-date: 2026-09-31 00:10:00 +0900
+date: 2026-10-01 00:10:00 +0900
 categories: [CyberSecurity, CTF]
 tags: [alpacahack, pwn, environ_technique]
 math: true
