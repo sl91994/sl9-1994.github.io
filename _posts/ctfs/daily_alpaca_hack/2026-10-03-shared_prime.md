@@ -4,6 +4,7 @@ description: RSA暗号における共有素数の性質を利用する問題
 date: 2026-10-05 00:10:00 +0900
 categories: [CyberSecurity, CTF]
 tags: [alpacahack, crypto, rsa/shared_factor_attack]
+math: true
 ---
 
 # daily_alpaca-crypto-medium-shared_prime
