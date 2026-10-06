@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 7
 ---
 
 # _Hi !_
@@ -32,10 +32,10 @@ order: 4
 - **TryHackMe:** `Hacker`
 
 - **Vulnerability Report:**
-  - **UnderFlow-DoS:** `1`
+  - **DoS:** `2`
   - **Path-Traversal:** `1`
   - **Stored-XSS:** `3`
-  - **Arbitrary-file-write:** `2`
+  - **Arbitrary-File-Write:** `2`
 
 - **Contributing to OSS**
   - **libjxl/jxl-rs:**
@@ -50,7 +50,8 @@ order: 4
 | MetalGearSolid | 地獄先生ぬ～べ～ | ヨルシカ          | -            |
 | CorpseParty    | 進撃の巨人       | Faketype          | -            |
 | Fallout        | 獣の奏者エリン   | 花譜 (V.W.P)      | -            |
-| Minecraft      | めがみめぐり     | -                 | -            |
+| Minecraft      | -                | -                 | -            |
+| めがみめぐり   | -                | -                 | -            |
 
 ## _Certification_
 
