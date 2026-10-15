@@ -18,7 +18,7 @@ tags: [alpacahack, misc, command_injection]
 > - **Tools & TechStack**:
 >   - Python
 > - **Release**: 2026/10/13
->   {: .prompt-info }
+{: .prompt-info }
 
 **配布ファイル**
 
