@@ -33,8 +33,9 @@ tags: [rust, ghsa, xss]
 | salvo_core / salvo | >= 0.3.0, <= 0.95.2  |     |
 | salvo-serve-static | >= 0.37.9, <= 0.95.2 |     |
 
-> Note: `StaticEmbed` は本件の影響を受けません．
-> `render_embedded_data`(`crates/serve-static/src/embed.rs`)は `NamedFile` を経由しない独自の描画経路であり，`Content-Disposition` を一切出力しないため，以下で述べる分類処理を通りません．そのためSVGはブラウザ既定でインライン表示されますが，配信対象は `rust-embed` によりビルド時に埋め込まれるため攻撃者の制御下に無く，Stored-XSSは成立しません．
+> Note: `StaticEmbed` は本件の影響を受けません．  
+> `render_embedded_data`(`crates/serve-static/src/embed.rs`)は `NamedFile` を経由しない独自の描画経路であり，`Content-Disposition` を一切出力しないため，以下で述べる分類処理を通りません．  
+> そのためSVGはブラウザ既定でインライン表示されますが，配信対象は `rust-embed` によりビルド時に埋め込まれるため攻撃者の制御下に無く，Stored-XSSは成立しません．
 
 ---
 
@@ -58,14 +59,13 @@ let disposition_type = disposition_type.unwrap_or_else(|| {
 });
 ```
 
-`image/svg+xml` は `type_() == mime::IMAGE` に一致するため **`inline`** に分類されます．
-また，SVG は `<script>` やイベントハンドラ属性(`onload` 等)を含むことができ，トップレベル遷移または `<iframe>` でレンダリングされると **配信元オリジンで JS が実行** することが可能です．
-なお，`text/xml`(`type_() == mime::TEXT`)も同様に `inline` となり，`<?xml-stylesheet ?>`(XSLT)
-経由のスクリプト実行余地が残ります．
+`image/svg+xml` は `type_() == mime::IMAGE` に一致するため **`inline`** に分類されます．  
+また，SVG は `<script>` やイベントハンドラ属性(`onload` 等)を含むことができ，トップレベル遷移または `<iframe>` でレンダリングされると **配信元オリジンで JS が実行** することが可能です．  
+なお，`text/xml`(`type_() == mime::TEXT`)も同様に `inline` となり，`<?xml-stylesheet ?>`(XSLT) 経由のスクリプト実行余地が残ります．
 
 #### 分類の内的不整合
 
-この分類処理は **認識できない型は安全側で `attachment`** という設計ですが，XML系型では既に安全側が選ばれているのに，SVGや `text/xml` だけ漏れています．
+この分類処理は **認識できない型は安全側で `attachment`** という設計ですが，XML系型では既に安全側が選ばれているのにも関わらず，SVGや `text/xml` だけ漏れています．
 
 | Content-Type            | `type/subtype` / `suffix`   | 分類       | スクリプト実行                |
 | ----------------------- | --------------------------- | ---------- | ----------------------------- |
@@ -75,7 +75,8 @@ let disposition_type = disposition_type.unwrap_or_else(|| {
 | `application/xhtml+xml` | `application/xhtml` / `xml` | attachment | 不可                          |
 | `text/html`             | `text/html` / -             | inline     | 可 (静的サーバとして仕様通り) |
 
-> Note: `application/xml` は、開発者が `NamedFileBuilder::content_type()` を使用してコンテンツタイプを明示的に設定した場合にのみ現れます。`mime_infer::from_path` (`crates/serve-static/src/dir.rs:545`) は `.xml` を `text/xml` にマッピングするためです。
+> Note: `application/xml` は、開発者が `NamedFileBuilder::content_type()` を使用してコンテンツタイプを明示的に設定した場合にのみ現れます．  
+> `mime_infer::from_path` (`crates/serve-static/src/dir.rs:545`) は `.xml` を `text/xml` にマッピングするためです．
 
 ### デフォルトで有効・上書き手段がない
 
@@ -119,7 +120,6 @@ $ grep -rn "nosniff\|X-Content-Type-Options\|Content-Security-Policy" crates/ --
 ```
 
 `NamedFile` や `StaticEmbed` からのレスポンスには、`X-Content-Type-Options: nosniff` ヘッダーが含まれていません．
-SVGは適切なMIMEタイプで配信されているため，`nosniff` の有無はこの問題の前提条件ではありませんが，そのようなセキュリティ強化策が講じられていないことも事実です．
 
 ---
 
