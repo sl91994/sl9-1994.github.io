@@ -31,11 +31,11 @@ order: 7
 - **HackTheBox:** `Hacker`
 - **TryHackMe:** `Hacker`
 
-- **Vulnerability Report:**
-  - **DoS:** `2`
-  - **Path-Traversal:** `1`
-  - **Stored-XSS:** `3`
-  - **Arbitrary-File-Write:** `2`
+- **Published Security Advisories:**
+  - [GHSA-hjqx-j4rw-g7xv / Remediation developer && Finder](https://github.com/zip-rs/zip2/security/advisories/GHSA-hjqx-j4rw-g7xv)
+  - [GHSA-x2x8-gq67-9mq6 / Remediation developer && Finder](https://github.com/zip-rs/zip2/security/advisories/GHSA-x2x8-gq67-9mq6)
+  - [GHSA-5qh5-c9fp-66jm / Finder](https://github.com/zip-rs/zip2/security/advisories/GHSA-5qh5-c9fp-66jm)
+  - [GHSA-4v9h-p7m9-rh26 / Remediation developer](https://github.com/zip-rs/zip2/security/advisories/GHSA-4v9h-p7m9-rh26) (reported by others; fixed as a side effect of GHSA-hjqx-j4rw-g7xv)
 
 - **Contributing to OSS**
   - **libjxl/jxl-rs:**
