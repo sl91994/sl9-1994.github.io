@@ -24,8 +24,8 @@ tags: [rust, ghsa, ntlm_credential_leak]
   - `>=v9.0.0 (v9.0.4 含む)` : `SymlinkExtractAction::ExtractNoRestrictions` 指定時のみ発火
 - **Precondition:** Windows のみ (`make_symlink_impl()` の `#[cfg(windows)]` 分岐) なため，Unixは影響しません
 
-Windows 分岐の `make_symlink_impl` は，symlink を作成する前に，ファイルかディレクトリかを判定す目的でアーカイブ由来のターゲット文字列に対して，`std::fs::metadata(target)` を呼び出します．
-ターゲットが `\\attacker\share\x` のような UNC パスの場合，`std::fs::metadata()` は内部で `CreateFileW` を呼び，SMB クライアントが当該ホストへ接続を試みます．
+Windows 分岐の `make_symlink_impl` は，symlink を作成する前に，ファイルかディレクトリかを判定す目的でアーカイブ由来のターゲット文字列に対して，`std::fs::metadata(target)` を呼び出します．  
+ターゲットが `\\attacker\share\x` のような UNC パスの場合，`std::fs::metadata()` は内部で `CreateFileW` を呼び，SMB クライアントが当該ホストへ接続を試みます．  
 この接続に伴い，Windows は自動的に NTLM 認証 (現在のユーザのNTLMv2 チャレンジ応答) を送り得ます．
 
 ---
@@ -133,8 +133,8 @@ SymlinkExtractAction::ExtractNoRestrictions => {
 
 ### PoC
 
-Windows 実機で検証するための最小 PoC を用意しました．(`tests/poc_windows_ntlm.rs`)
-検証先ホストは **環境変数 `ZIP2_POC_UNC_HOST` で検証者自身が指定** します．
+Windows 実機で検証するための最小 PoC を用意しました．(`tests/poc_windows_ntlm.rs`)  
+検証先ホストは **環境変数 `ZIP2_POC_UNC_HOST` で検証者自身が指定** します．  
 検証者が自分で立てた SMB リスナへ向けて実行してください．
 
 - `unc_target_triggers_metadata_before_symlink_creation()`: `>=v1.3.0, <v9.0.0` 用
@@ -235,7 +235,7 @@ fn unc_target_via_no_restrictions_head_only() {
 }
 ```
 
-PoCの検証には，**Windows11 (Victim VM) と Ubuntu (Attacker VM)** とホストオンリーネットワーク，ポイズニングを無効化したresponderを使用しました．
+PoCの検証には，**Windows11 (Victim VM) と Ubuntu (Attacker VM)** とホストオンリーネットワーク，ポイズニングを無効化したresponderを使用しました．  
 また，以下のバージョンにおいて検証を行い，いずれも NTLMv2 認証が行われることを確認しました．
 
 - **legacy `unc_target_triggers_metadata_before_symlink_creation()`:** v9.0.0 pre3 `4e15a847e72dd942a5f0605cf4dd7471d65ba9fc` で確認
@@ -259,10 +259,10 @@ $ sudo python3 Responder.py -I ens33 -v
 
 ### WebDAV の検証 (445/tcp が防御されている場合)
 
-IPアドレス直書き (例: `<attacker_ip>@80 / <attacker>@SSL@443`) の場合はWebDAVの自動NTLMは行われません．
+IPアドレス直書き (例: `<attacker_ip>@80 / <attacker>@SSL@443`) の場合はWebDAVの自動NTLMは行われません．  
 この経路が悪用されうるのは，IPアドレスではなく，**ドット無しの単一のラベル名が Attacker に解決可能 (Intranet Zone)** な場合のみです．
 
-これらをポイズニングで満たす場合は，Attacker と Victim が **同一のL2セグメントに存在すること** が前提になります．
+これらをポイズニングで満たす場合は，Attacker と Victim が **同一のL2セグメントに存在すること** が前提になります．  
 ポイズニングを使用しない場合は，Victimの設定を変更する権限が必要になるため，攻撃は現実的に困難です．
 
 - **SMB:** IPのみで悪用可能
@@ -272,7 +272,7 @@ IPアドレス直書き (例: `<attacker_ip>@80 / <attacker>@SSL@443`) の場合
 
 ### Impact
 
-攻撃者はコンピュータ名や資格情報を知る必要が無く，被害者に悪意のある ZIP を Windows 上で展開させることで，被害者ホストから攻撃者の SMB サーバ認証情報を送らせることが可能です．
+攻撃者はコンピュータ名や資格情報を知る必要が無く，被害者に悪意のある ZIP を Windows 上で展開させることで，被害者ホストから攻撃者の SMB サーバ認証情報を送らせることが可能です．  
 取得した NTLMv2 レスポンスはオフラインクラックや NTLM relay に利用され得ます．
 
 最新のリリースバージョンにおいては，以下が成立していることが前提になります．
@@ -284,7 +284,7 @@ IPアドレス直書き (例: `<attacker_ip>@80 / <attacker>@SSL@443`) の場合
 
 ### Suggested Fix
 
-根本原因は，`make_symlink_impl` (windows) が dir/file の種別判定のためだけに，攻撃者制御の `target` 文字列へ `std::fs::metadata()` を実行する点にあります．
+根本原因は，`make_symlink_impl` (windows) が dir/file の種別判定のためだけに，攻撃者制御の `target` 文字列へ `std::fs::metadata()` を実行する点にあります．  
 dir/file の区別は _生成される symlink の種別_ (`symlink_dir` / `symlink_file`) にしか影響せず，安全性には無関係です．
 
 したがって **ファイルシステムを一切触らずにアーカイブ内情報だけで種別を決め，不明な場合は file symlink にフォールバック** することで，SMB/WebDAV へ接続される副作用を排除することができます．
@@ -321,5 +321,5 @@ pub(crate) fn make_symlink_impl<T>(
 
 #### 挙動上の変更とトレードオフ
 
-- アーカイブ内に末尾スラッシュ付きエントリとして存在しない **実在のローカルディレクトリ** を指す symlink は，従来の dir symlink ではなく file symlink として作成されます．
+- アーカイブ内に末尾スラッシュ付きエントリとして存在しない **実在のローカルディレクトリ** を指す symlink は，従来の dir symlink ではなく file symlink として作成されます．  
 - Windows では file symlink でもリンク先パスは正しく指すため，解決自体は多くの場合動作します．
