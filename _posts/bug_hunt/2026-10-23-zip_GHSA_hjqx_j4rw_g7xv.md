@@ -1,14 +1,16 @@
 ---
-title: Arbitrary file write outside the extraction directory, because ZipArchive::extract validates symlink targets lexically. (The defense against CVE-2025-29787 was broken in v7.2.0) (GHSA-hjqx-j4rw-g7xv)
+title: CVE-2026-115908 「Arbitrary file write outside the extraction directory, because ZipArchive::extract validates symlink targets lexically. (The defense against CVE-2025-29787 was broken in v7.2.0)」
 description: zip クレートの脆弱性．シンボリックリンクを含む絶対パスの検証が字句的であるため，展開ディレクトリ外への任意ファイル書き込みが可能になる．
+last_modified_at: 2026-10-27 17:35:00 +0900
 date: 2026-10-23 12:12:00 +0900
 categories: [CyberSecurity, Bughunt]
 tags: [rust, ghsa, arbitrary_file_write]
 ---
 
-> この脆弱性は `v9.0.0` で修正されました．  
-> [Arbitrary file write outside the extraction directory, because ZipArchive::extract validates symlink targets lexically. (The defense against CVE-2025-29787 was broken in v7.2.0) · Advisory · zip-rs/zip2 · GitHub](https://github.com/zip-rs/zip2/security/advisories/GHSA-hjqx-j4rw-g7xv)
-{: .prompt-info }
+> - この脆弱性は `v9.0.0` で修正されました．
+> - [Arbitrary file write outside the extraction directory, because ZipArchive::extract validates symlink targets lexically. (The defense against CVE-2025-29787 was broken in v7.2.0) · Advisory · zip-rs/zip2 · GitHub](https://github.com/zip-rs/zip2/security/advisories/GHSA-hjqx-j4rw-g7xv)
+> - [CVE-2026-115908](https://nvd.nist.gov/vuln/detail/cve-2026-115908) が割り当てられています．
+> {: .prompt-info }
 
 ### Summary
 
@@ -23,7 +25,7 @@ tags: [rust, ghsa, arbitrary_file_write]
 > **Windowsではさらに影響が拡大します(別ドライブ・UNC共有の両ケースを実機で検証済み)**:  
 > `simplified_components` が `Prefix` コンポーネントを破棄するため，`D:\<destと同じ末尾パス>` や，UNCパス `\\attacker\share\<同じ末尾パス>` のようなパスが `starts_with` によるチェックを通過してしまいます．  
 > その結果，`outpath.push` によって別のドライブ・リモート共有へと置き換えられてしまうため，**単一のシンボリックリンクのみで十分であり，中間シンボリックリンクのチェーンは不要です**．  
-> ただし，Windowsでシンボリックリンクを作成するには `SeCreateSymbolicLinkPrivilege` が必要です(管理者権限，またはDeveloper Modeの有効化)．  
+> ただし，Windowsでシンボリックリンクを作成するには `SeCreateSymbolicLinkPrivilege` が必要です(管理者権限，またはDeveloper Modeの有効化)．
 >
 > **実機での検証(Windows 10 VM (19045.2604)，`tests/poc_win.rs`)**:  
 > 展開先をC:ドライブ配下の一時ディレクトリに設定した状態で，以下の両方のパスにおいて `extract()` が `Ok(())` を返し，展開先の外部への書き込みに成功しました．  
@@ -73,9 +75,9 @@ Utf8WindowsComponent::Prefix(_) | Utf8WindowsComponent::RootDir => (),
 #### CVE-2025-29787との相違点
 
 - **前提条件がCVEより厳しい:** 本件では展開先の絶対パスを知っている必要があります(`AC:H`)．  
-    一方CVEの方は相対パスの `../` のみで成立し，このような前提条件は存在しませんでした．  
-- **影響を受けるAPIの範囲がより狭い:** 本件は `ZipArchive::extract`(および `extract_unwrapped_root_dir`)のみに影響します．      `ZipStreamReader::extract` は影響を受けません．  
-    これはローカルヘッダの `external_attributes` が `0` であるため，`is_symlink()` が常にfalseを返すためです．
+   一方CVEの方は相対パスの `../` のみで成立し，このような前提条件は存在しませんでした．
+- **影響を受けるAPIの範囲がより狭い:** 本件は `ZipArchive::extract`(および `extract_unwrapped_root_dir`)のみに影響します． `ZipStreamReader::extract` は影響を受けません．  
+   これはローカルヘッダの `external_attributes` が `0` であるため，`is_symlink()` が常にfalseを返すためです．
 
 ### Details
 

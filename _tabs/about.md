@@ -30,16 +30,17 @@ order: 7
 
 - **HackTheBox:** `Hacker`
 - **TryHackMe:** `Hacker`
-
-- **Published Security Advisories:**
-  - [GHSA-hjqx-j4rw-g7xv / Remediation developer && Finder](https://github.com/zip-rs/zip2/security/advisories/GHSA-hjqx-j4rw-g7xv)
+- **Published GHSA:** `4`
+  - [GHSA-hjqx-j4rw-g7xv (CVE-2026-115908) / Remediation developer && Finder](https://github.com/zip-rs/zip2/security/advisories/GHSA-hjqx-j4rw-g7xv)
   - [GHSA-x2x8-gq67-9mq6 / Remediation developer && Finder](https://github.com/zip-rs/zip2/security/advisories/GHSA-x2x8-gq67-9mq6)
   - [GHSA-5qh5-c9fp-66jm / Finder](https://github.com/zip-rs/zip2/security/advisories/GHSA-5qh5-c9fp-66jm)
   - [GHSA-4v9h-p7m9-rh26 / Remediation developer](https://github.com/zip-rs/zip2/security/advisories/GHSA-4v9h-p7m9-rh26) (reported by others; fixed as a side effect of GHSA-hjqx-j4rw-g7xv)
+- **CVE:** `1`
+  - [CVE-2026-115908](https://nvd.nist.gov/vuln/detail/cve-2026-115908)
 
 - **Contributing to OSS**
-  - **libjxl/jxl-rs:**
-  - **zip-rs/zip2:**
+  - **libjxl/jxl-rs**
+  - **zip-rs/zip2**
   - **thewawar/simple-http-server**
 
 ## _Favorite pieces_

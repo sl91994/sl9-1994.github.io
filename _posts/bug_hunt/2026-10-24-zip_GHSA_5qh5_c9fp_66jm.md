@@ -1,5 +1,5 @@
 ---
-title: (Windows only) attacker-controlled symlink target triggers outbound SMB/NTLM authentication via std::fs::metadata() during extraction (GHSA-5qh5-c9fp-66jm)
+title: GHSA-5qh5-c9fp-66jm 「(Windows only) attacker-controlled symlink target triggers outbound SMB/NTLM authentication via std::fs::metadata() during extraction」
 description: zip クレートの脆弱性．展開処理中に std::fs::metadata() を介して，攻撃者が制御するシンボリックリンクのターゲットが外部への SMB/NTLM 認証を誘発する．
 date: 2026-10-24 20:48:00 +0900
 categories: [CyberSecurity, Bughunt]
