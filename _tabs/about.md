@@ -7,7 +7,7 @@ order: 7
 # _Hi !_
 
 **_SL91994_** です．名前の由来は，**Comet Shoemaker–Levy 9** からです．  
-技術力は皆無ですが，普段は **Rust** で，CLI・GUI，Web，便利ツール開発等を行ったり，セキュリティ関連やって遊んでます．<br>
+普段は **Rust** で，CLI・GUI，Web，便利ツール開発等を行ったり，セキュリティ関連やって遊んでます．<br>
 あと料理，イラストとか．
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5PTmo9zbG00?si=9-uwGhp7hxJXfNLy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
